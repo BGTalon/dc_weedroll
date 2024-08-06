@@ -11,7 +11,9 @@ Config = {
 		}
 	},
 	usableItems = { -- The usable weed items that will initiate roll up process along with the items player will receive after rolling
-		['biscotti_8th'] = {backwood = 'biscotti_backwood', rawpaper = 'biscotti_joint'}, 
+		['biscotti_8th'] = {
+			backwood = 'biscotti_backwood', 
+			rawpaper = 'biscotti_joint'}, 
 		-- Add More here
 	}
 }
