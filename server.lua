@@ -1,3 +1,6 @@
+local QBCore = exports['qb-core']:GetCoreObject()
+local ESX = exports["es_extended"]:getSharedObject()
+
 -- Function to handle rolling up the weed
 local function processItem(source, itemName)
 	if GetResourceState('es_extended') == 'started' then
