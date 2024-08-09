@@ -1,5 +1,5 @@
 Config = {
-	framework = 'esx', --esx, qb
+	framework = 'autodetect', --esx, qb leave this alone don't change
 	rollableitems = { -- These are the items you need to have to roll up. It will check for any of these itemsfrom both categories
 		blunts = { -- Blunt Items to load Brown Blunt Prop and Blunt Prop
 			'backwood', --You can add more under this, but make sure to add this same item name to the usable items table below
@@ -16,3 +16,7 @@ Config = {
 		-- Add More here
 	}
 }
+
+
+Config.Progress = "circle" -- Lib.ProgressCircle or lib.Progressbar options "circle" or "bar"
+Config.ProgressLocation = "bottom"  --"middle, top, bottom, left, right"
